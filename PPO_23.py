@@ -145,12 +145,12 @@ def main():
     n_latent_var = 256           # number of variables in hidden layer
     update_timestep = 200      # update policy every n timesteps
     replay_buffer_size = 10_000      # update policy every n timesteps
-    lr = 0.002
+    lr = 6e-4
     betas = (0.9, 0.999)
     gamma = 0.99                # discount factor
     K_epochs = 4                # update policy for K epochs
     eps_clip = 0.2              # clip parameter for PPO
-    beta = 1e-2
+    beta = 5e-4
     random_seed = None
     #############################################
     

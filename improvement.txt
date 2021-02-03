@@ -100,3 +100,8 @@ ppo_22
 1420
 1000
 DNF x3 (10k)
+
+ppo_23 lowered learning rate from 2e-3 to 6e-4
+860
+780
+3240
